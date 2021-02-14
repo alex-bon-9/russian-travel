@@ -21,3 +21,6 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+**Посмотреть сайт на GitHubPages**
+
+* [Ссылка на сайт](https://alex-bon-9.github.io/russian-travel/index.html)

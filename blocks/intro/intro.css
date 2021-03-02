@@ -1,0 +1,27 @@
+.intro {
+  padding: 92px 0 0 148px;
+  min-width: 690px; /* минимальная ширина удачное решение или есть что-то лучше?!*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding: 92px 0 0 48px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding: 88px 24px 0 24px;
+    min-width: 720px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .intro {
+    padding: 64px 16px 0 16px;
+    min-width: 288px;
+  }
+}

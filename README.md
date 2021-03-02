@@ -14,6 +14,7 @@
 * Построение сетки с помощью технологии Grid;
 * Адаптивная верстка (применение media queries);
 * Работа с макетом в Figma;
+* Работа с GIT через консоль;
 
 
 * [Ссылка на сайт](https://alex-bon-9.github.io/russian-travel/index.html)

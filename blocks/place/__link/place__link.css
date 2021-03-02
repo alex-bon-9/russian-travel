@@ -1,0 +1,12 @@
+.place__link {
+  max-width: 456px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  transition: .5s linear;
+}
+.place__link:hover { /*ссылка плавно становится немного прозрачной*/
+  opacity: .5;
+}

@@ -1,0 +1,7 @@
+.page__container {
+  margin: 0 auto; /*контент отцентрован*/
+  max-width: 1280px;
+  min-width: 320px;
+  color: #FFFFFF;
+  font-family: 'Inter', Arial, sans-serif;
+}

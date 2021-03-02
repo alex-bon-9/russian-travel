@@ -1,6 +1,18 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  z-index: 2;
+  align-items: flex-end;
+  padding: 28px 48px 0 48px; /*т.к. внешние отсутпы для блока задавать не реккмоендуется, а внутренние отсутпы  для блока разрешаются?!*/
+  box-sizing: border-box; /* здесь падинги включены в размер блока или использовать маргины везде проще?!*/
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 28px 24px 0 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 16px 16px 0 16px;
+  }
 }

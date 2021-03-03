@@ -8,5 +8,5 @@
   transition: .5s linear;
 }
 .place__link:hover { /*ссылка плавно становится немного прозрачной*/
-  opacity: .5;
+  opacity: .8;
 }

@@ -7,7 +7,7 @@
   transition: .5s linear;
 }
 .footer__link:hover { /*ссылка плавно становится немного прозрачной*/
-  opacity: .5;
+  opacity: .8;
 }
 
 @media screen and (max-width: 767px) {

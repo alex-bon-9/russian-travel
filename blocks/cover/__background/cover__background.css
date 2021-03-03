@@ -1,5 +1,5 @@
 .cover__background {
-  height: 740px;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,7 @@
 }
 .cover__background:before {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   content: '';
   background: #2A2C2F;
   opacity: 0.3;
@@ -27,17 +27,17 @@
 
 @media screen and (max-width: 1279px) {
   .cover__background {
-    max-height: 640px;
+    min-height: 640px;
   }
 }
 @media screen and (max-width: 1023px) {
   .cover__background {
-    max-height: 480px;
+    min-height: 480px;
   }
 }
 @media screen and (max-width: 767px) {
   .cover__background {
-    max-height: 200px;
+    min-height: 200px;
   }
 }
 
